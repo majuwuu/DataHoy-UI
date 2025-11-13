@@ -1,0 +1,1 @@
+// Content from example/ui/accordion.tsx
