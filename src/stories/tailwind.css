@@ -1,0 +1,6 @@
+/* Storybook global CSS for Tailwind
+	This file imports the compiled `src/index.css` (Tailwind output).
+	Storybook imports this file from `.storybook/preview.js`.
+*/
+
+@import '../index.css';

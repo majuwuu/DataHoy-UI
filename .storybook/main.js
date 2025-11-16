@@ -1,6 +1,7 @@
 module.exports = {
 	framework: { name: "@storybook/nextjs", options: {} },
 	stories: [
+		"../src/**/*.stories.@(js|jsx|ts|tsx|mdx)",
 		"../src/components/**/*.stories.@(js|jsx|ts|tsx|mdx)",
 		"../src/stories/**/*.stories.@(js|jsx|ts|tsx|mdx)",
 	],
