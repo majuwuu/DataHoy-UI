@@ -1,4 +1,4 @@
-import { Header } from "../components/organisms/Header";
+import { HeaderGlobal } from "../components/organisms/Header";
 import { HeroSlider } from "../components/organisms/HeroSlider";
 import { NewsCard } from "../components/organisms/NewsCard";
 import { TrendingCard } from "../components/organisms/TrendingCard";
@@ -66,7 +66,7 @@ const trendingNews = [
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <HeaderGlobal />
       {/* Hero Slider */}
       <HeroSlider slides={heroSlides} />
       <main className="container mx-auto px-4 lg:px-8 py-12 max-w-7xl">

@@ -27,7 +27,7 @@ const defaultNav: NavItem[] = [
   { label: "Análisis", href: "#" },
 ];
 
-export function Header({ date = "", searchPlaceholder = "Buscar noticias...", navItems = defaultNav, showSubscribe = true, subscribeLabel = "Suscribirse" }: HeaderProps) {
+export function HeaderGlobal({ date = "", searchPlaceholder = "Buscar noticias...", navItems = defaultNav, showSubscribe = true, subscribeLabel = "Suscribirse" }: HeaderProps) {
   return (
     <header className="border-b sticky top-0 bg-white z-50 shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">

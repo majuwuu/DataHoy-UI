@@ -1,9 +1,9 @@
 import React from 'react';
-import { Header } from './Header';
+import { HeaderGlobal } from './Header';
 
 export default {
   title: 'Organisms/Header',
-  component: Header,
+  component: HeaderGlobal,
   argTypes: {
     navItems: { control: 'object' },
     date: { control: 'text' },
@@ -11,7 +11,7 @@ export default {
   },
 };
 
-const Template = (args: any) => <Header {...args} />;
+const Template = (args: any) => <HeaderGlobal {...args} />;
 
 export const Default: any = Template.bind({});
 Default.args = {
